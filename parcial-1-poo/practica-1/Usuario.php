@@ -1,33 +1,36 @@
 <?php
 
-class Usuario
-{
-    private string $nombre;
-    private string $correo;
+// Clase que representa a un usuario con nombre y correo
+class Usuario {
 
-    public function __construct(string $nombre, string $correo)
-    {
+    // Atributos privados para proteger los datos (encapsulamiento)
+    private $nombre;
+    private $correo;
+
+    // Constructor: inicializa los valores al crear el objeto
+    public function __construct($nombre, $correo) {
         $this->nombre = $nombre;
         $this->correo = $correo;
     }
 
-    public function getNombre(): string
-    {
+    // Método getter: devuelve el nombre del usuario
+    public function getNombre() {
         return $this->nombre;
     }
 
-    public function getCorreo(): string
-    {
+    // Método getter: devuelve el correo del usuario
+    public function getCorreo() {
         return $this->correo;
     }
 
-    public function setNombre(string $nombre): void
-    {
+    // Método setter: permite modificar el nombre del usuario
+    public function setNombre($nombre) {
         $this->nombre = $nombre;
     }
 
-    public function setCorreo(string $correo): void
-    {
+    // Método setter: permite modificar el correo del usuario
+    public function setCorreo($correo) {
         $this->correo = $correo;
     }
 }
+?>
