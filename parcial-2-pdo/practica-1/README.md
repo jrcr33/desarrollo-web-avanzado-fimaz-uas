@@ -12,3 +12,14 @@ Desarrollar una aplicación web funcional que permita gestionar productos median
 Justificación
 
 El uso de PDO en conjunto con la programación orientada a objetos permite construir aplicaciones más seguras, escalables y fáciles de mantener. Este proyecto fortalece el entendimiento del manejo de bases de datos en PHP, así como la correcta estructuración de un sistema web basado en buenas prácticas de desarrollo.
+
+Requisitos del sistema
+
+Para la correcta ejecución del proyecto, se requiere:
+
+PHP 8 o superior
+Servidor local como XAMPP
+Apache y MySQL activos
+Navegador web (Google Chrome, Microsoft Edge, etc.)
+phpMyAdmin para la gestión de la base de datos
+
